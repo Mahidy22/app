@@ -1,0 +1,74 @@
+li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+li .li{
+    list-style: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    background: crimson;
+    border-radius: 4px;
+    padding-left: 7px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+ .li:hover{
+    box-shadow: 2px 4px 7px;
+    transition: 0.3s;
+    background: black;
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+.li:hover #icon{
+    color: crimson; 
+}
+
+ul #icon{
+    color: whitesmoke;
+}
+
+
+
+input{
+    width:75%;
+    padding: 5.4px;
+    margin-right: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid crimson;
+}
+
+input:hover{
+    background: crimson;
+    color: black;
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.container{
+    color: crimson;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box{
+    margin: auto;
+    min-width: 70%;
+    background: black;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+#addBtn{
+    background: crimson;
+    color: black;
+}
